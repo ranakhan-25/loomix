@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LOOMIX - Modern E-commerce Platform
 
-## Getting Started
+LOOMIX is a premium e-commerce platform built for modern fashion retail. It offers a seamless shopping experience with dynamic product browsing, advanced cart management, and a highly responsive user interface.
 
-First, run the development server:
+## 🌟 Project Overview
+LOOMIX provides a sophisticated shopping environment where users can browse products, select specific attributes (size, color), manage quantities, and proceed to a secure checkout. The project is designed with a focus on performance, accessibility, and modern UI/UX principles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
+[https://loomix-ebon.vercel.app](https://loomix-ebon.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Technology Stack
+* **Framework**: Next.js (App Router)
+* **Styling**: Tailwind CSS
+* **Animations**: Framer Motion
+* **Carousel**: Swiper.js
+* **State Management**: React Context API (Cart & Product State)
+* **Icons**: Lucide React
+* **Deployment**: Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Key Features
+* **Dynamic Product Details**: Smart product pages supporting custom selections (Size, Color, and Quantity).
+* **Advanced Cart System**: 
+  - Real-time cart updates.
+  - Automatic subtotal and total price calculation based on quantity.
+  - Item removal with clean UI transitions.
+* **Responsive UI/UX**: 
+  - Glassmorphism effects with Tailwind.
+  - Fully functional Light/Dark mode support.
+  - Mobile-first approach for all screen sizes.
+* **Interactive Elements**: Sliding testimonial sections and animated hero components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗 Component Architecture
+The project is modularized for better maintainability:
+* **`BookingCard`**: Handles individual cart item display and attribute visualization.
+* **`OrderSummary`**: Manages the price calculation, shipping, and checkout flow.
+* **`CartContext`**: Centralized state management for adding/removing items from the cart.
 
-## Learn More
+## 💻 Getting Started
+To run this project locally:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/loomix.git](https://github.com/your-username/loomix.git)
