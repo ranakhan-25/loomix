@@ -56,7 +56,6 @@ export default function BookProductPage() {
           <div className="lg:col-span-1">
             <div className="sticky top-28 p-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg border dark:border-gray-700">
               <h2 className="text-2xl font-bold dark:text-white mb-6">Order Summary</h2>
-              
               <div className="space-y-4 mb-8">
                 <div className="flex justify-between text-gray-500 dark:text-gray-400">
                   <span>Subtotal</span>

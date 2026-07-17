@@ -4,6 +4,7 @@ import ProductCard from "@/components/product/ProductCard";
 import Pagination from "@/components/common/PaginationBtn";
 import type { Product } from "@/type/product";
 
+
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [search, setSearch] = useState("");
@@ -18,13 +19,13 @@ export default function ProductsPage() {
       .then((data) => setProducts(data));
   }, []);
 
+
   const filteredProducts = useMemo(() => {
     let result = products.filter(
       (p) =>
         p.name?.toLowerCase().includes(search.toLowerCase()) &&
         (category === "All" || p.category === category),
     );
-
     if (sort === "LowToHigh") {
       result.sort((a, b) => Number(a.price) - Number(b.price));
     } else if (sort === "HighToLow") {
@@ -33,6 +34,7 @@ export default function ProductsPage() {
 
     return result;
   }, [products, search, category, sort]);
+
 
   const currentItems = filteredProducts.slice(
     (currentPage - 1) * itemsPerPage,
@@ -48,7 +50,7 @@ export default function ProductsPage() {
 
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
 
-        {/* Content */}
+      
         <div className="relative z-10 text-center text-white px-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 drop-shadow-lg">
             Our Collection
