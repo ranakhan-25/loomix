@@ -18,6 +18,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const removeFromCart = (id: number) => {
     setCart((prev) => prev.filter((item) => item.id !== id));
+    toast.info(`Item removed from cart.`);
   };
 
   return (
