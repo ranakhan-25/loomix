@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+
         <div className="mt-12 pt-8 border-t dark:border-gray-800 text-center text-gray-500 dark:text-gray-500 text-sm">
           © {new Date().getFullYear()} LOOMIX. All rights reserved.
         </div>
