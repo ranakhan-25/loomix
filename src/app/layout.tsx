@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LOOMIX | Premium Quality Modern Fashion & Sustainable Style",
-  description: "Shop the best modern fashion at LOOMIX. Premium quality clothing for a sustainable lifestyle.",
+  title: "LOOMIX | Premium Quality Modern Fashion & Sustainable Style" ,
+  description: "Shop the best modern fashion at LOOMIX. Premium quality clothing for a sustainable lifestyle." ,
 };
 
 export default function RootLayout({
