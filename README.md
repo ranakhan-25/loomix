@@ -14,7 +14,7 @@ LOOMIX provides a sophisticated shopping environment where users can browse prod
 * **Animations**: Framer Motion
 * **Carousel**: Swiper.js
 * **State Management**: React Context API (Cart & Product State)
-* **Icons**: Lucide React
+* **Icons**: Lucide React, React icons
 * **Deployment**: Vercel
 
 ## Key Features
@@ -29,15 +29,10 @@ LOOMIX provides a sophisticated shopping environment where users can browse prod
   - Mobile-first approach for all screen sizes.
 * **Interactive Elements**: Sliding testimonial sections and animated hero components.
 
-## Component Architecture
-The project is modularized for better maintainability:
-* **`BookingCard`**: Handles individual cart item display and attribute visualization.
-* **`OrderSummary`**: Manages the price calculation, shipping, and checkout flow.
-* **`CartContext`**: Centralized state management for adding/removing items from the cart.
 
 ## Getting Started
 To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ranakhan-25/loomix]
+   git clone [https://github.com/ranakhan-25/loomix] 
