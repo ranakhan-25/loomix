@@ -1,5 +1,4 @@
-"use client"
-import React from 'react';
+"use client";
 import Image from 'next/image';
 import { Trash2 } from 'lucide-react';
 import type { Product } from '@/type/product'; 
