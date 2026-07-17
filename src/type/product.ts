@@ -9,4 +9,7 @@ export interface Product {
   sizes: string[];
   inStock: boolean;
   description: string;
+  selectedSize:string;
+  selectedColor:string;
+  quantity:number;
 }
